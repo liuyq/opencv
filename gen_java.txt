@@ -1,0 +1,8 @@
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py core  core/include/opencv2/core.hpp 
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py imgproc  imgproc/include/opencv2/imgproc.hpp 
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py core core/include/opencv2/core/utility.hpp 
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py imgcodecs imgcodecs/include/opencv2/imgcodecs.hpp 
+python ./java/generator/gen_java.py ./python/src2/hdr_parser.py videoio videoio/include/opencv2/videoio.hpp 
+
+out/host/linux-x86/bin/aapt package -z  --pseudo-localize -m  -J out/target/common/obj/APPS/OpenCVAndroidLib_intermediates/src -M external/opencv-upstream/modules/java/android_lib/AndroidManifest.xml -P out/target/common/obj/APPS/OpenCVAndroidLib_intermediates/public_resources.xml -S external/opencv-upstream/modules/java/android_lib/res  -I out/target/common/obj/APPS/framework-res_intermediates/package-export.apk -G out/target/common/obj/APPS/OpenCVAndroidLib_intermediates/proguard_options --min-sdk-version 22 --target-sdk-version 22 --version-code 22 --version-name 5.1-eng.liuyq.20150723.133356  
