@@ -4,7 +4,6 @@
     android:versionCode="3000"
     android:versionName="3.00">
 
-    <uses-sdk android:minSdkVersion="@ANDROID_NATIVE_API_LEVEL@" android:targetSdkVersion="22"/>
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 
     <application
