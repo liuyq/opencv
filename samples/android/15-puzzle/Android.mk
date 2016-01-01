@@ -17,13 +17,10 @@
 # This makefile shows how to build a shared library and an activity that
 # bundles the shared library and calls it using JNI.
 
-
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
-
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_PACKAGE_NAME := OpenCV15Puzzle
 LOCAL_MODULE_TAGS := debug
 LOCAL_STATIC_JAVA_LIBRARIES := OpenCVJavaCommon
-
 include $(BUILD_PACKAGE)

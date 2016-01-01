@@ -25,5 +25,6 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_PACKAGE_NAME := OpenCVManager
 LOCAL_MODULE_TAGS := debug
 LOCAL_STATIC_JAVA_LIBRARIES := OpenCVJavaCommon
+LOCAL_JNI_SHARED_LIBRARIES := libopencv_java
 
 include $(BUILD_PACKAGE)

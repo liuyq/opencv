@@ -10,3 +10,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := OpenCVJavaCore
 
 #include $(BUILD_JAVA_LIBRARY)
 include $(BUILD_STATIC_JAVA_LIBRARY)
+
+include $(OPENCV_ROOT_PATH)/modules/java/android_lib/Android.mk
+include $(OPENCV_ROOT_PATH)/modules/java/android_lib/jni/Android.mk
