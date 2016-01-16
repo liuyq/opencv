@@ -14,9 +14,6 @@
 
 #include "opencv2/imgcodecs.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/imgcodecs/include/opencv2//imgcodecs.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/imgcodecs/include/opencv2//imgcodecs/imgcodecs_c.h"
-
 using namespace cv;
 
 /// throw java exception

@@ -14,9 +14,6 @@
 
 #include "opencv2/videoio.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/videoio/include/opencv2//videoio.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/videoio/include/opencv2//videoio/videoio_c.h"
-
 using namespace cv;
 
 /// throw java exception

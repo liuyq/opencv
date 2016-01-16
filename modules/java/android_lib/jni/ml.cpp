@@ -14,8 +14,6 @@
 
 #include "opencv2/ml.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/ml/include/opencv2//ml.hpp"
-
 using namespace cv;
 
 /// throw java exception

@@ -14,9 +14,6 @@
 
 #include "opencv2/calib3d.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/calib3d/include/opencv2//calib3d.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/calib3d/include/opencv2//calib3d/calib3d_c.h"
-
 using namespace cv;
 
 /// throw java exception

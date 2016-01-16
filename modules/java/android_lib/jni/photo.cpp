@@ -14,9 +14,6 @@
 
 #include "opencv2/photo.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/photo/include/opencv2//photo.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/photo/include/opencv2//photo/photo_c.h"
-
 using namespace cv;
 
 /// throw java exception

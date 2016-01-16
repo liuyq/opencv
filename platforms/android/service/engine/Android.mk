@@ -21,13 +21,14 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_SRC_FILES := $(call all-java-files-under, src) \
+                   src/org/opencv/engine/OpenCVEngineInterface.aidl
 LOCAL_PACKAGE_NAME := OpenCVManager
 LOCAL_MODULE_TAGS := debug
 LOCAL_JAVA_LIBRARIES := \
     OpenCVJavaCommon \
     OpenCVJavaCore \
 
-LOCAL_JNI_SHARED_LIBRARIES := libopencv_java
+LOCAL_JNI_SHARED_LIBRARIES := libopencv_java3
 
 include $(BUILD_PACKAGE)

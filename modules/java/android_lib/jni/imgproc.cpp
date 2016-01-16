@@ -14,9 +14,6 @@
 
 #include "opencv2/imgproc.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/imgproc/include/opencv2//imgproc.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/imgproc/include/opencv2//imgproc/types_c.h"
-
 using namespace cv;
 
 /// throw java exception

@@ -14,9 +14,6 @@
 
 #include "opencv2/video.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/video/include/opencv2//video/background_segm.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/video/include/opencv2//video/tracking.hpp"
-
 using namespace cv;
 
 /// throw java exception

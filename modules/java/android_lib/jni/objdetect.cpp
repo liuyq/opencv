@@ -14,9 +14,6 @@
 
 #include "opencv2/objdetect.hpp"
 
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/objdetect/include/opencv2//objdetect.hpp"
-#include "/data/armv8/marshmallow/external/opencv-upstream/modules/objdetect/include/opencv2//objdetect/detection_based_tracker.hpp"
-
 using namespace cv;
 
 /// throw java exception

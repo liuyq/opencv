@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := libopencv_java
+LOCAL_MODULE    := libopencv_java3
 
 LOCAL_SRC_FILES := \
     converters.cpp \
